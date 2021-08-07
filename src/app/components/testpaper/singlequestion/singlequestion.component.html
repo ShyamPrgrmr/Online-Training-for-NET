@@ -1,0 +1,14 @@
+<div class="card">
+<div class="card-header que">{{question.question}}</div>
+<div class="card-body">
+    <div class="row">
+        <label class="col-6 que"*ngFor="let option of question.options;let i = index">
+            <input class="input-control p-1" type="radio" 
+                [name]="'option'+key"     
+                [value]="i+1" 
+                [id]="i+1"
+                (change)="onOptionSelect(i+1)"/>&nbsp; {{option}}
+        </label>
+    </div>
+</div>
+</div>

@@ -7,7 +7,7 @@
 
     <div id="flush-collapseOne" [ngClass]="!isOpened ? 'accordion-collapse collapse show' : 'accordion-collapse collapse' " aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
       
-      <div class="text-center text-danger pb-2 pt-2" [ngStyle]="{'font-size':'14px','font-weight':'600'}">Theory</div>
+      <div class="text-center text-white pb-2 pt-2 bg-info" [ngStyle]="{'font-size':'14px','font-weight':'600'}">Theory</div>
     
       <div class="card">
           <ul class="list-group list-group-flush" >
@@ -17,8 +17,13 @@
           </ul>
       </div>
 
-      <div class="text-center text-danger pb-2 pt-2" [ngStyle]="{'font-size':'14px','font-weight':'600'}">Practice Questions</div>
+      <div class="text-center text-white pb-2 pt-2 bg-primary" [ngStyle]="{'font-size':'14px','font-weight':'600'}">Practice Questions</div>
 
       <app-question class="card text-dark bg-light mb-3" *ngFor="let prquestion of subject.practiceQuestions" [data]="prquestion"></app-question>
+
+
+      <div class="text-center text-white pb-2 pt-2 bg-success" [ngStyle]="{'font-size':'14px','font-weight':'600','background-color':'#000'}">Practice Test</div>
+      <app-testpaper [questionarry]="subject.test"></app-testpaper>
+      
     </div>
   </div>

@@ -20,6 +20,8 @@ export class LearningComponent implements OnInit {
 
   subjects:Subjects[] = [];
   paper:string = "1";
+  isSelect:boolean = false;
+  showLoading=false;
 
   getSubjects(){
     this.httpClient.get<{[key:string]:Subjects}>("assets/data.json").
@@ -39,8 +41,16 @@ export class LearningComponent implements OnInit {
         this.subjects = data;
       }
     );
-   
   }
 
+  onPaperChange(option:any){
+    this.isSelect = false;
+    this.paper = option.target.value;
+    this.showLoading = true;
+    setTimeout(()=>{
+      this.showLoading = false;
+      this.isSelect = true;
+    },1000);
+  }
 
 }

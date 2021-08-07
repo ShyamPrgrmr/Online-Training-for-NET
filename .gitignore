@@ -4,6 +4,9 @@
 /dist
 /tmp
 /out-tsc
+/www
+/platforms
+/plugins
 # Only exists if Bazel was run
 /bazel-out
 

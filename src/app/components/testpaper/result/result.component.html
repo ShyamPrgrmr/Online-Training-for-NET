@@ -1,0 +1,19 @@
+
+<div class="text-white pb-2 pt-2 bg-warning" [ngStyle]="{'font-size':'14px','font-weight':'600','padding-left':'20px','padding-right':'20px'}">
+    Result
+    <div [ngStyle]="{'margin-left':'auto'}">
+        Correct Answers : {{totalCorrect}}/{{totalNumber}}
+    </div>
+</div>
+
+<div class="card" *ngFor="let result of results">
+    <div [ngClass]="result.isCorrect?'card-header que text-success':'card-header que text-danger'">{{result.question}}</div>
+    
+    <div class="card-body">
+        <div class="row">
+            <div *ngFor="let option of result.options;let i = index" [ngClass]="result.answer===(i+1)?'col-6 que text-success':'col-6 que'" >
+                <b>{{option}}</b>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,11 @@
+<app-singlequestion 
+    class="card text-dark bg-light mb-3" 
+    *ngFor="let prquestion of questions" 
+    [question]="prquestion"></app-singlequestion>
+
+
+<div class="text-danger que" *ngIf="isShowMessage">Please Answer All Question.</div>
+<button (click)="checkResult()" class="btn btn-primary form-control btn-sm" *ngIf="!isCheckResult">Show Result</button>
+<app-result [result]="getResluts()" *ngIf="isCheckResult"></app-result>
+
+

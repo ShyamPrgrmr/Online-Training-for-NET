@@ -13,6 +13,10 @@ import { SubjectComponent } from './components/subject/subject.component';
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { ChangepasswordComponent } from './components/changepassword/changepassword.component';
+import { TestpaperComponent } from './components/testpaper/testpaper.component';
+import { SinglequestionComponent } from './components/testpaper/singlequestion/singlequestion.component';
+import { ResultComponent } from './components/testpaper/result/result.component';
+
 
 @NgModule({
   declarations: [
@@ -24,7 +28,10 @@ import { ChangepasswordComponent } from './components/changepassword/changepassw
     SubjectComponent,
     LoginComponent,
     RegisterComponent,
-    ChangepasswordComponent
+    ChangepasswordComponent,
+    TestpaperComponent,
+    SinglequestionComponent,
+    ResultComponent
   ],
   imports: [
     BrowserModule,

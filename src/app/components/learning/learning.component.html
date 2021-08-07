@@ -1,15 +1,19 @@
 <div class="accordion accordion-flush" id="accordionFlushExample">
 
   <div class="p-2">
-    <label for="paper">Select Paper</label>
-    <select name="paper" id="paper" class="form-control" [(ngModel)]="paper">
-      <option value="1">1</option>
-      <option value="2">2</option>
+    <select name="paper" id="paper" class="form-control" (change)="onPaperChange($event)">
+      <option value="1">Select Paper</option>
+      <option value="1">Aptitude</option>
+      <option value="2">Computer Science</option>
     </select>
   </div>
 
-  <div *ngFor="let subject of subjects">
-    <app-subject *ngIf="subject.paper === paper"  [subject]="subject" ></app-subject>
+  <div class="d-flex justify-content-center" *ngIf="showLoading">
+    <div class="spinner-border text-primary" role="status"></div>
+  </div>
+  
+  <div *ngFor="let subject of subjects" >
+    <app-subject *ngIf="subject.paper === paper && isSelect"  [subject]="subject" ></app-subject>
   </div>
 
 </div>

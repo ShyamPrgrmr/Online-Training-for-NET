@@ -15,8 +15,8 @@
             "If two trains of length a metres and b metres are moving in the same direction at u m/s and v m/s, then:\n The time taken by the faster train to cross the slower train = (a + b) / (u-v) sec.",
             "If two trains (or bodies) start at the same time from points A and B towards each other and after crossing they take a and b sec in reaching B and A respectively,then:(A's speed) : (B's speed) = (b : a)"
         ],           
-        "test":[],
-        "practiceQuestions":[
+        "test":[
+
             {
                 "question":"A train running at the speed of 60 km/hr crosses a pole in 9 seconds. What is the length of the train?",
                 "options":[
@@ -25,51 +25,69 @@
                     "324 metres",
                     "150 metres"
                 ],
-                "answer":2,
+                "answer":4,
                 "id":0
             },
+
             {
-                "question":"A train running at the speed of 60 km/hr crosses a pole in 9 seconds. What is the length of the train?",
+                "question":"A train 125 m long passes a man, running at 5 km/hr in the same direction in which the train is going, in 10 seconds. The speed of the train is:",
                 "options":[
-                    "120 metres",
-                    "180 metres",
-                    "324 metres",
-                    "150 metres"
+                    "45 km/h",
+                    "50 km/h",
+                    "54 km/h",
+                    "55 km/h"
                 ],
                 "answer":2,
                 "id":1
             },
+
             {
-                "question":"A train running at the speed of 60 km/hr crosses a pole in 9 seconds. What is the length of the train?",
+                "question":"The length of the bridge, which a train 130 metres long and travelling at 45 km/hr can cross in 30 seconds, is:",
                 "options":[
-                    "120 metres",
-                    "180 metres",
-                    "324 metres",
-                    "150 metres"
+                    "200 metres",
+                    "225 metres",
+                    "245 metres",
+                    "250 metres"
                 ],
-                "answer":2,
+                "answer":3,
                 "id":2
+            }
+
+
+        ],
+        "practiceQuestions":[
+            {
+                "question":"The length of the bridge, which a train 130 metres long and travelling at 45 km/hr can cross in 30 seconds, is:",
+                "options":[
+                    "200 metres",
+                    "225 metres",
+                    "245 metres",
+                    "250 metres"
+                ],
+                "answer":3,
+                "id":0
             }
         ]
     },
+
     "subject-2":
     {   
-        "id":0,
-        "name":"Number System",
-        "paper":"2",
+        "id":1,
+        "paper":"1",
+        "name":"Height and Distance",
         "list":[
-            "km/hr to m/s conversion: A km/hr = (A x 5/18 )m/s.",
-            "m/s to km/hr conversion: A m/s =( A x 18/5 )km/hr.",
-            "Time taken by a train of length l metres to pass a pole or standing man or a signal post is equal to the time taken by the train to cover l metres.",
-            "Time taken by a train of length l metres to pass a stationery object of length b metres is the time taken by the train to cover (l + b) metres.",
-            "Suppose two trains or two objects bodies are moving in the same direction at u m/s and v m/s, where u > v, then their relative speed is = (u - v) m/s.",
-            "Suppose two trains or two objects bodies are moving in opposite directions at u m/s and v m/s, then their relative speed is = (u + v) m/s.",
-            "If two trains of length a metres and b metres are moving in opposite directions at u m/s and v m/s, then:\n The time taken by the trains to cross each other =(a + b) / (u + v) sec.",
-            "If two trains of length a metres and b metres are moving in the same direction at u m/s and v m/s, then:\n The time taken by the faster train to cross the slower train = (a + b) / (u-v) sec.",
-            "If two trains (or bodies) start at the same time from points A and B towards each other and after crossing they take a and b sec in reaching B and A respectively,then:(A's speed) : (B's speed) = (b : a)"
+            "sin() = perpandicular/Hypotenuse",
+            "cos() = Base/Hypotenuse",
+            "tan() = perpandicular/Base",
+            "cosec() = 1/sin()",
+            "sec() = 1/cos()",
+            "cot() = 1/tan()",
+            "sin^2+cos^2=1",
+            "1+tan^2=sec^2",
+            "1+cot^2=cosec^2"
         ],           
-        "test":[],
-        "practiceQuestions":[
+        "test":[
+
             {
                 "question":"A train running at the speed of 60 km/hr crosses a pole in 9 seconds. What is the length of the train?",
                 "options":[
@@ -81,31 +99,569 @@
                 "answer":2,
                 "id":0
             },
+
             {
-                "question":"A train running at the speed of 60 km/hr crosses a pole in 9 seconds. What is the length of the train?",
+                "question":"A man standing at a point P is watching the top of a tower, which makes an angle of elevation of 30° with the man's eye. The man walks some distance towards the tower to watch its top and the angle of the elevation becomes 60°. What is the distance between the base of the tower and the point P?",
                 "options":[
-                    "120 metres",
-                    "180 metres",
-                    "324 metres",
-                    "150 metres"
+                    "4*sqrt(3) units",
+                    "8 units",
+                    "12 units",
+                    "Data Indepandent"
+                ],
+                "answer":4,
+                "id":1
+            },
+			{
+                "question":"The angle of elevation of a ladder leaning against a wall is 60° and the foot of the ladder is 4.6 m away from the wall. The length of the ladder is:",
+                "options":[
+                    "2.3 metres",
+                    "4.6 metres",
+                    "7.8 metres",
+                    "9.2 metres"
+                ],
+                "answer":4,
+                "id":2
+            }
+
+
+        ],
+        "practiceQuestions":[
+            {
+                "question":"An observer 1.6 m tall is 20*sqrt(3) away from a tower. The angle of elevation from his eye to the top of the tower is 30°. The height of the tower is:",
+                "options":[
+                    "21 metres",
+                    "23.2 metres",
+                    "24.72 metres",
+                    "None of thest"
+                ],
+                "answer":1,
+                "id":0
+            }
+        ]
+    },
+
+    "subject-3":
+    {   
+        "id":2,
+        "paper":"1",
+        "name":"Simple Intretrest",
+        "list":[
+            "Principal : The money borrowed or lent out for a certain period is called the principal or the sum",
+            "Interest : Extra money paid for using other's money is called interest",
+            "Simple Interest (S.I.) : If the interest on a sum borrowed for certain period is reckoned uniformly, then it is called simple interest.",
+            "Let Principal = P, Rate = R% per annum (p.a.) and Time = T years. Then",
+            "SI = (P*R*T)/100"
+        ],           
+        "test":[
+
+            {
+                "question":"A sum of money at simple interest amounts to Rs. 815 in 3 years and to Rs. 854 in 4 years. The sum is:",
+                "options":[
+                    "650",
+                    "690",
+                    "698",
+                    "700"
+                ],
+                "answer":3,
+                "id":0
+            },
+
+            {
+                "question":"Mr. Thomas invested an amount of Rs. 13,900 divided in two different schemes A and B at the simple interest rate of 14% p.a. and 11% p.a. respectively. If the total amount of simple interest earned in 2 years be Rs. 3508, what was the amount invested in Scheme B?",
+                "options":[
+                    "6400",
+                    "6500",
+                    "7200",
+                    "7500"
+                ],
+                "answer":1,
+                "id":1
+            },
+			
+			{
+                "question":"A sum fetched a total simple interest of Rs. 4016.25 at the rate of 9 p.c.p.a. in 5 years. What is the sum? ",
+                "options":[
+                    "4462.50",
+                    "8032.50",
+                    "8900",
+                    "8925"
+                ],
+                "answer":4,
+                "id":2
+            }
+
+
+        ],
+        "practiceQuestions":[
+            {
+                "question":"Reena took a loan of Rs. 1200 with simple interest for as many years as the rate of interest. If she paid Rs. 432 as interest at the end of the loan period, what was the rate of interest?",
+                "options":[
+                    "3.6",
+                    "6",
+                    "18",
+                    "Not Determined"
+                ],
+                "answer":2,
+                "id":0
+            }
+        ]
+    },
+
+    "subject-4":
+    {   
+        "id":3,
+        "paper":"1",
+        "name":"Profit and Lost",
+        "list":[
+            "Cost Price : The price, at which an article is purchased, is called its cost price, abbreviated as C.P.",
+            "Selling price : The price, at which an article is sold, is called its selling prices, abbreviated as S.P.",
+            "Profit and Gain : If S.P. is greater than C.P., the seller is said to have a profit or gain.",
+            "Loss : If S.P. is less than C.P., the seller is said to have incurred a loss.",
+            "Gain = SP - CP",
+			"Loss = CP - SP"
+        ],           
+        "test":[
+
+            {
+                "question":"The cost price of 20 articles is the same as the selling price of x articles. If the profit is 25%, then the value of x is:",
+                "options":[
+                    "15",
+                    "16",
+                    "18",
+                    "25"
+                ],
+                "answer":2,
+                "id":0
+            },
+
+            {
+                "question":"In a certain store, the profit is 320% of the cost. If the cost increases by 25% but the selling price remains constant, approximately what percentage of the selling price is the profit?",
+                "options":[
+                    "30%",
+                    "70%",
+                    "100%",
+                    "250%"
                 ],
                 "answer":2,
                 "id":1
             },
-            {
-                "question":"A train running at the speed of 60 km/hr crosses a pole in 9 seconds. What is the length of the train?",
+			
+			{
+                "question":"A vendor bought toffees at 6 for a rupee. How many for a rupee must he sell to gain 20%?",
                 "options":[
-                    "120 metres",
-                    "180 metres",
-                    "324 metres",
-                    "150 metres"
+                    "3",
+                    "4",
+                    "5",
+                    "6"
+                ],
+                "answer":3,
+                "id":2
+            }
+
+
+        ],
+        "practiceQuestions":[
+            {
+                "question":"The percentage profit earned by selling an article for Rs. 1920 is equal to the percentage loss incurred by selling the same article for Rs. 1280. At what price should the article be sold to make 25% profit?",
+                "options":[
+                    "2000 rs",
+                    "2200 rs",
+                    "2400 rs",
+                    "None of the above"
+                ],
+                "answer":1,
+                "id":0
+            }
+        ]
+    },
+
+    "subject-5":
+    {   
+        "id":4,
+        "paper":"1",
+        "name":"Percentage",
+        "list":[
+            "By a certain percent, we mean that many hundredths.",
+            "Thus, x percent means x hundredths, written as x%.",
+            "To express x% as a fraction: We have, x% = x/100."
+        ],           
+        "test":[
+
+            {
+                "question":"A batsman scored 110 runs which included 3 boundaries and 8 sixes. What percent of his total score did he make by running between the wickets?",
+                "options":[
+                    "45%",
+                    "45(5/11)%",
+                    "54(6/11)%",
+                    "55%"
+                ],
+                "answer":2,
+                "id":0
+            },
+
+            {
+                "question":"Two students appeared at an examination. One of them secured 9 marks more than the other and his marks was 56% of the sum of their marks. The marks obtained by them are: ",
+                "options":[
+                    "39, 30",
+                    "41, 32",
+                    "42, 33",
+                    "43, 34"
+                ],
+                "answer":3,
+                "id":1
+            },
+			
+			{
+                "question":" A fruit seller had some apples. He sells 40% apples and still has 420 apples. Originally, he had:",
+                "options":[
+                    "588",
+                    "600",
+                    "672",
+                    "700"
+                ],
+                "answer":4,
+                "id":2
+            }
+
+
+        ],
+        "practiceQuestions":[
+            {
+                "question":" What percentage of numbers from 1 to 70 have 1 or 9 in the unit's digit?",
+                "options":[
+                    "1",
+                    "14",
+                    "20",
+                    "21"
+                ],
+                "answer":3,
+                "id":0
+            }
+        ]
+    },
+
+    "subject-6":
+    {   
+        "id":5,
+        "paper":"2",
+        "name":"Discrete Mathematics",
+        "list":[
+            "Discrete Mathematics is a branch of mathematics involving discrete elements that uses algebra and arithmetic. It is increasingly being applied in the practical fields of mathematics and computer science. It is a very good tool for improving reasoning and problem-solving capabilities. This tutorial explains the fundamental concepts of Sets, Relations and Functions, Mathematical Logic, Group theory, Counting Theory, Probability, Mathematical Induction and Recurrence Relations, Graph Theory, Trees and Boolean Algebra.",
+            "Mathematics can be broadly classified into two categories − ",
+            "Continuous Mathematics − It is based upon continuous number line or the real numbers. It is characterized by the fact that between any two numbers, there are almost always an infinite set of numbers. For example, a function in continuous mathematics can be plotted in a smooth curve without breaks.",
+			"Discrete Mathematics − It involves distinct values; i.e. between any two points, there are a countable number of points. For example, if we have a finite set of objects, the function can be defined as a list of ordered pairs having these objects, and can be presented as a complete list of those pairs."
+        ],           
+        "test":[
+
+            {
+                "question":"{x: x is an integer neither positive nor negative} is",
+                "options":[
+                    "Empty Set",
+                    "Non Empty Set",
+                    "Finite Set",
+                    "Non Empty and Finite Set"
+                ],
+                "answer":4,
+                "id":0
+            },
+
+            {
+                "question":"{x: x is a real number between 1 and 2} is an",
+                "options":[
+                    "Infinite Set",
+                    "Finite Set",
+                    "Empty Set",
+                    "None of the mentioned"
+                ],
+                "answer":1,
+                "id":1
+            },
+			
+			{
+                "question":"Write set {1, 5, 15, 25,…} in set-builder form.",
+                "options":[
+                    "{x: either x=1 or x=5n, where n is a real number}",
+                    "{x: either x=1 or x=5n, where n is a integer}",
+                    "{x: either x=1 or x=5n, where n is an odd natural number}",
+                    "{x: x=5n, where n is a natural number}"
+                ],
+                "answer":3,
+                "id":2
+            }
+
+
+        ],
+        "practiceQuestions":[
+            {
+                "question":"Express {x: x= n/ (n+1), n is a natural number less than 7} in roster form.",
+                "options":[
+                    "{1⁄2, 2⁄3, 4⁄5, 6⁄7}",
+                    "{1⁄2, 2⁄3, 3⁄4, 4⁄5, 5⁄6, 6⁄7, 7⁄8}",
+                    "{1⁄2, 2⁄3, 3⁄4, 4⁄5, 5⁄6, 6⁄7}",
+                    "Infinite set"
+                ],
+                "answer":3,
+                "id":0
+            }
+        ]
+    },
+
+    "subject-7":
+    {   
+        "id":6,
+        "paper":"2",
+        "name":"Computer Graphics",
+        "list":[
+            "It is difficult to display an image of any size on the computer screen. This method is simplified by using Computer graphics. Graphics on the computer are produced by using various algorithms and techniques. This tutorial describes how a rich visual experience is provided to the user by explaining how all these processed by the computer.",
+            "Computer Graphics involves technology to access. The Process transforms and presents information in a visual form. The role of computer graphics insensible. In today life, computer graphics has now become a common element in user interfaces, T.V. commercial motion pictures.",
+            "Computer Graphics is the creation of pictures with the help of a computer. The end product of the computer graphics is a picture it may be a business graph, drawing, and engineering.",
+			"In computer graphics, two or three-dimensional pictures can be created that are used for research. Many hardware devices algorithm has been developing for improving the speed of picture generation with the passes of time. It includes the creation storage of models and image of objects. These models for various fields like engineering, mathematical and so on."
+        ],           
+        "test":[
+
+            {
+                "question":"This section of our 1000+ Computer Graphics multiple choice questions focuses on 2D Translation.",
+                "options":[
+                    "Repositioning it along with straight line path",
+                    "Repositioning it along with circular path",
+                    "Only b",
+                    "All of the mentioned"
+                ],
+                "answer":1,
+                "id":0
+            },
+
+            {
+                "question":"We translate a two-dimensional point by adding",
+                "options":[
+                    "Translation distances",
+                    "Translation difference",
+                    " X and Y",
+                    "Only a"
+                ],
+                "answer":4,
+                "id":1
+            },
+			
+			{
+                "question":"The translation distances (dx, dy) is called as",
+                "options":[
+                    "Translation vector",
+                    "Shift vector",
+                    "Both A and B",
+                    "Neuther A nor B"
+                ],
+                "answer":3,
+                "id":2
+            }
+
+
+        ],
+        "practiceQuestions":[
+            {
+                "question":"In 2D-translation, a point (x, y) can move to the new position (x’, y’) by using the equation",
+                "options":[
+                    "x’=x+dx and y’=y+dx",
+                    "x’=x+dx and y’=y+dy",
+                    "X’=x+dy and Y’=y+dx",
+                    "X’=x-dx and y’=y-dy"
+                ],
+                "answer":2,
+                "id":0
+            }
+        ]
+    },
+
+    "subject-8":
+    {   
+        "id":7,
+        "paper":"2",
+        "name":"Computer System Architecture",
+        "list":[
+            "A computer system is basically a machine that simplifies complicated tasks. It should maximize performance and reduce costs as well as power consumption.The different components in the Computer System Architecture are Input Unit, Output Unit, Storage Unit, Arithmetic Logic Unit, Control Unit etc.",
+            "The input data travels from input unit to ALU. Similarly, the computed data travels from ALU to output unit. The data constantly moves from storage unit to ALU and back again. This is because stored data is computed on before being stored again. The control unit controls all the other units as well as their data.."
+        ],           
+        "test":[
+
+            {
+                "question":"Who developed the basic architecture of computer?",
+                "options":[
+                    "Blaise Pascal",
+                    "Charles Babbage",
+                    "John Von Neumann",
+                    "None of the above"
+                ],
+                "answer":3,
+                "id":0
+            },
+
+            {
+                "question":"Which of the following allows simultaneous write and read operations?",
+                "options":[
+                    "ROM",
+                    "EROM",
+                    "RAM",
+                    "None of the above"
+                ],
+                "answer":3,
+                "id":1
+            },
+			
+			{
+                "question":" Which of the following is not considered as a peripheral device?",
+                "options":[
+                    "CPU",
+                    "KEYBOARD",
+                    "MONITOR",
+                    "ALL OF THE ABOVE"
+                ],
+                "answer":1,
+                "id":2
+            }
+
+
+        ],
+        "practiceQuestions":[
+            {
+                "question":"Which of the following computer memory is fastest?",
+                "options":[
+                    "Register",
+                    "Hard Disk",
+                    "RAM",
+                    "None of the above"
+                ],
+                "answer":1,
+                "id":0
+            }
+        ]
+    },
+
+    "subject-9":
+    {   
+        "id":8,
+        "paper":"2",
+        "name":"DBMS(Database Management System)",
+        "list":[
+            "Database Management System or DBMS in short refers to the technology of storing and retrieving usersí data with utmost efficiency along with appropriate security measures. This tutorial explains the basics of DBMS such as its architecture, data models, data schemas, data independence, E-R model, relation model, relational database design, and storage and file structure and much more.",
+            "Database is a collection of related data and data is a collection of facts and figures that can be processed to produce information.Mostly data represents recordable facts. Data aids in producing information, which is based on facts. For example, if we have data about marks obtained by all students, we can then conclude about toppers and average marks."
+        ],           
+        "test":[
+
+            {
+                "question":"Which of the following is generally used for performing tasks like creating the structure of the relations, deleting relation?",
+                "options":[
+                    "DML",
+                    "Query",
+                    "Relational Schema",
+                    "DDL"
+                ],
+                "answer":4,
+                "id":0
+            },
+
+            {
+                "question":"Which of the following provides the ability to query information from the database and insert tuples into, delete tuples from, and modify tuples in the database?",
+                "options":[
+                    "DML",
+                    "DDL",
+                    "Query",
+                    "None of the above"
+                ],
+                "answer":1,
+                "id":1
+            },
+			
+			{
+                "question":"The given Query can also be replaced with_______: ",
+                "options":[
+                    "Select name,course_id from teaches,instructor where instructor_id=course_id;",
+                    "Select name, course_id from instructor natural join teaches;",
+                    "Select name, course_id from instructor;",
+                    "Select course_id from instructor join teaches;"
                 ],
                 "answer":2,
                 "id":2
             }
+
+
+        ],
+        "practiceQuestions":[
+            {
+                "question":"Which one of the following given statements possibly contains the error?",
+                "options":[
+                    "select * from emp where empid = 10003;",
+                    "select empid from emp where empid = 10006;",
+                    "select empid from emp;",
+                    "select empid where empid = 1009 and Lastname = 'GELLER';"
+                ],
+                "answer":4,
+                "id":0
+            }
+        ]
+    },
+    
+    "subject-10":
+    {   
+        "id":9,
+        "paper":"2",
+        "name":"Software Engineering",
+        "list":[
+            "Software Engineering Tutorial delivers basic and advanced concepts of Software Engineering. Software Engineering Tutorial is designed to help beginners and professionals both.",
+            "The software is a collection of integrated programs.Software subsists of carefully-organized instructions and code written by developers on any of various particular computer languages.Computer programs and related documentation such as requirements, design models and user manuals.Engineering is the application of scientific and practical knowledge to invent, design, build, maintain, and improve frameworks, processes, etc."
+        ],           
+        "test":[
+
+            {
+                "question":"What is the first step in the software development lifecycle? ",
+                "options":[
+                    "System Design",
+                    "Coding",
+                    "System Testing",
+                    "preliminary Investigation and analysis"
+                ],
+                "answer":4,
+                "id":0
+            },
+
+            {
+                "question":"What does the study of an existing system refer to? ",
+                "options":[
+                    "DFD",
+                    "Feasibility Study",
+                    "System Analysis",
+                    "System Planning"
+                ],
+                "answer":3,
+                "id":1
+            },
+			
+			{
+                "question":"Which of the following is involved in the system planning and designing phase of the Software Development Life Cycle (SDLC)?",
+                "options":[
+                    "Sizing",
+                    "Parallel Run",
+                    "Specification Freeze",
+                    "All of the above"
+                ],
+                "answer":4,
+                "id":2
+            }
+
+
+        ],
+        "practiceQuestions":[
+            {
+                "question":"What is RAD?",
+                "options":[
+                    "Rapid Application Development",
+                    "Rapid Application Document",
+                    "Relative Application Development",
+                    "None of the above"
+                ],
+                "answer":2,
+                "id":0
+            }
         ]
     }
-
-
 
 }
