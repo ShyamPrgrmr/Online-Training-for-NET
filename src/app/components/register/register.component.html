@@ -1,0 +1,30 @@
+<form (ngSubmit)="onSubmit()">
+
+    <div class="p-2">
+        <label for="exampleInputEmail1" class="form-label">Name</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="name" [(ngModel)]="name">
+    </div>
+
+    <div class="p-2">
+        <label for="exampleInputEmail1" class="form-label">Mobile</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="mobile" [(ngModel)]="mobile">
+    </div>
+
+    <div class="p-2">
+      <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email" [(ngModel)]="email">
+    </div>
+    <div class="p-2">
+      <label for="exampleInputPassword1" class="form-label">Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" name="password" [(ngModel)]="password">
+    </div>
+    
+    <div class="p-2">
+        <button type="submit" class="btn btn-primary form-control">Sign UP</button>
+    </div>
+
+    <div class="p-2" *ngIf="showError">
+      <div class="text-danger">Error in registering.</div>
+    </div>
+
+</form>

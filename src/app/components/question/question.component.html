@@ -1,0 +1,12 @@
+<div class="card-header que">{{questionData.question}}</div>
+<div class="card-body">
+    <div class="row">
+        <div class="col-6 que" *ngFor="let option of questionData.options;let i = index">
+            <b>{{i+1}}.</b> &nbsp; {{option}}
+        </div>
+        <div class="mt-1 que" [ngStyle]="{'display':'flex','justify-content':'space-between','align-items':'center'}">
+            <button class="btn-xsm btn-primary" (click)="btnShowClick()" *ngIf="!isShowAnswer">Show Answer</button>
+            <b  *ngIf="isShowAnswer">{{questionData.answer}}.  {{answer}}</b>
+            <button class="btn-xsm btn-danger" (click)="btnShowClick()" *ngIf="isShowAnswer">Hide Answer</button>
+        </div>
+</div>
